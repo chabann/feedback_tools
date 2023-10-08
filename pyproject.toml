@@ -7,7 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-
+pyqt6 = "*"
+pyqt-tools = "*"
+SQLAlchemy="2.0"
 
 [build-system]
 requires = ["poetry-core"]
