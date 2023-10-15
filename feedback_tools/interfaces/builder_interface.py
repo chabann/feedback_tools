@@ -1,4 +1,4 @@
-class Builder:
+class BuilderInterface:
     def __init__(self) -> None:
         pass
 
