@@ -191,7 +191,7 @@
                       <enum>Qt::RightToLeft</enum>
                      </property>
                      <property name="styleSheet">
-                      <string notr="true">color: #FFF;
+                      <string notr="true">color: red;
 text-align: center;
 font-family: Inter;
 font-size: 20px;
@@ -233,22 +233,5 @@ line-height: normal;</string>
   </widget>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>addNewNote</sender>
-   <signal>clicked()</signal>
-   <receiver>UserApplication</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>939</x>
-     <y>32</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>559</x>
-     <y>425</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>
